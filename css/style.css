@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+img{
+	max-width: 100%;
+}
+header{
+
+background-color: white;
+
+padding: 15px;
+}
+.boxh{
+	
+width: 1200px;
+	
+margin: auto;
+	
+display: flex;
+	
+overflow: hidden;
+	
+align-items: center;
+}
+
+.logo{
+
+width: 10%;
+
+flex: 0 1 auto;
+}
+.menu{width: 75%;}
+.menu ul{
+
+display: flex;
+
+list-style: none;
+
+justify-content: flex-end;
+
+flex-wrap: wrap;
+}
+.menu ul li {}
+.menu ul li a{
+	
+text-decoration: none;
+	
+color: black;
+	
+font-size: 12px;
+	
+font-weight: 600;
+	
+padding: 10px 13px;
+}
+
+section{
+		height: 100vh;
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		padding-bottom: 100px;
+}
+
+.yellow{
+	background-image: url(../images/portfolio-item60.jpg);}
+.blue{
+	background-image: url(../images/portfolio-item61.jpg);}
+.pink{
+	background-image: url(../images/portfolio-item60.jpg);}
+.green{
+	background-image: url(../images/portfolio-item61.jpg);}
+.lopink{
+	background-image: url(../images/portfolio-item60.jpg);}
+.purple{
+	background-image: url(../images/portfolio-item60.jpg);}
+.loyellow{
+	background-image: url(../images/portfolio-item61.jpg);}
+.con{
+
+width: 1200px;
+
+height: 100%;
+
+margin: auto;
+
+display: flex;
+
+flex-wrap: wrap;
+
+flex-direction: column;
+
+justify-content: flex-end;
+}
+section .con a {background-color: black;color: white;text-decoration: none;}
+
+
+section .con h2{
+	
+background-color: white;
+}
+section .con p {
+	
+font-size: 13px;
+	
+margin-bottom: 15px;
+}
